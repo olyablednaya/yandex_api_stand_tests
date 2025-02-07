@@ -44,7 +44,6 @@ def post_new_user(body):
                          headers=data.headers)
 
 
-
 # Определение функции для отправки POST-запроса на поиск наборов по продуктам
 def post_products_kits(products_ids):
     # Отправка POST-запроса с использованием URL из конфигурации, данных о продуктах и заголовков
